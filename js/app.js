@@ -1,11 +1,33 @@
-const heroTitle = document.getElementById('title');
-const colors = {
-  initial: "#e42cad",
-  secondary: "rgba(255, 255, 255, 0.5)"
+const cards = document.querySelectorAll('.card');
+const cardContent = document.getElementsByClassName('card-content');
+let currentCardContent;
+
+const hide = () => currentCardContent.classList.add('is-hidden');
+const show = () => currentCardContent.classList.remove('is-hidden');
+
+const toggle = e => {
+  currentCardContent = e.currentTarget.children[0].children[1];
+  if (window.innerWidth < 768 || window.innerHeight < 400) {
+    if (currentCardContent.classList.contains('is-hidden')) {
+      show();
+    } else {
+      hide();
+    }
+  }
 }
 
-// heroTitle.addEventListener("mouseover", bounce);
+const hideCardText = () => {
+  // if browser width is less than 415px
+  if (window.innerWidth < 415) {
+    for (let i = 0; i < cards.length; i++) {
+      // add hide class to the content of the clicked card
+      cardContent[i].classList.add('is-hidden');
+    }
+  }
+}
 
-// function bounce() {
-//     heroTitle.classList.toggle("bounce");
-// }
+hideCardText();
+
+for (let i = 0; i < cards.length; i++) {
+  cards[i].addEventListener('click', toggle);
+};
