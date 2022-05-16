@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   text-decoration: none !important;
 }
 :root {
-  --navbar-color: rgba(228, 44, 173, .92);
+  --navbar-color: rgba(228, 44, 173, 0.92);
   --navbar-color: rgba(27, 127, 204, 1);
   --pale-blue: #90aeff;
   --light-green: #cefc86;
@@ -29,19 +31,20 @@ body {
   position: relative;
   /* margin-top: -56px; */
   min-height: 100vh;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a {
   transition: color 150ms;
 }
-a:link, a:visited {
+a:link,
+a:visited {
   color: black;
 }
 a:hover {
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 hr {
-  border-color: rgba(25, 25, 25, .6);
+  border-color: rgba(25, 25, 25, 0.6);
 }
 article {
   margin-bottom: 4.5rem;
@@ -50,7 +53,8 @@ ul {
   margin-left: 0;
   padding-inline-start: 20px;
 }
-.navbar, .dropdown-menu {
+.navbar,
+.dropdown-menu {
   background: var(--presidente-green);
 }
 
@@ -73,7 +77,7 @@ ul {
   font-weight: bolder;
 }
 .dropdown-item:hover {
-  background: rgba(255, 255, 255, .1);
+  background: rgba(255, 255, 255, 0.1);
 }
 main.container {
   color: white;
@@ -86,8 +90,8 @@ h3 {
 
 .hero {
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4) ),
-               url('/img/basketball-1.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/img/basketball-1.jpeg");
   background-size: cover;
   background-position: center;
   font-weight: 300;
@@ -108,16 +112,18 @@ h3 {
   padding: 0;
   grid-row: 2/3;
 }
-.title, .subtitle, .headline {
-  color: rgba(255, 255, 255, .925);
+.title,
+.subtitle,
+.headline {
+  color: rgba(255, 255, 255, 0.925);
 }
 .title {
   font-weight: 500;
   margin-bottom: 10px;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 .subtitle {
-  color: rgba(255, 255, 255, .925);
+  color: rgba(255, 255, 255, 0.925);
   font-size: 14px;
   font-weight: bolder;
   margin: 0 auto 10px;
@@ -126,20 +132,20 @@ h3 {
   --logo-size: 100%;
   width: var(--logo-size);
   height: var(--logo-size);
-  opacity: .85;
+  opacity: 0.85;
   grid-row: 3/4;
 }
 .headline {
   font-size: 1rem;
   margin: 0 auto 1rem;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   grid-row: 4/5;
   width: 88%;
   max-width: 1080px;
 }
 .hero a.btn {
   background: rgb(248, 175, 39);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 16px;
   font-weight: 700;
   transition: background 150ms;
@@ -151,8 +157,10 @@ h3 {
 
 /* /Hero Section */
 
-.about, .support, .contact {
-  padding: 1.5rem .75rem;
+.about,
+.support,
+.contact {
+  padding: 1.5rem 0.75rem;
 }
 
 .about {
@@ -161,9 +169,13 @@ h3 {
 }
 
 .mission {
-  background: #0B84BF;
-  background: rgb(11,132,191);
-  background: radial-gradient(circle, rgba(11,132,191,1) 0%, rgba(11,78,191,1) 400%);
+  background: #0b84bf;
+  background: rgb(11, 132, 191);
+  background: radial-gradient(
+    circle,
+    rgba(11, 132, 191, 1) 0%,
+    rgba(11, 78, 191, 1) 400%
+  );
   color: azure;
   padding: 2rem 1.5rem;
   border-radius: 3px;
@@ -176,9 +188,9 @@ h3 {
   line-height: 1.4;
 }
 .board .card {
-   color: rgb(38, 38, 38);
-   margin-bottom: 3rem;
-   cursor: pointer;
+  color: rgb(38, 38, 38);
+  margin-bottom: 3rem;
+  cursor: pointer;
 }
 .board h5 {
   font-weight: 700;
@@ -267,14 +279,14 @@ figcaption {
 }
 .copyright {
   color: rgba(115, 115, 115, 1);
-  font-size: .9rem;
+  font-size: 0.9rem;
   padding: 0 0 1rem 0;
   margin: 0;
   text-align: center;
   transition: color 70ms ease-in;
 }
 .copyright:hover {
-  color: rgba(240, 255, 255, 0.562);;
+  color: rgba(240, 255, 255, 0.562);
 }
 
 footer hr {
@@ -287,19 +299,23 @@ footer hr {
 }
 
 @media (min-width: 375px) {
-  .subtitle, .headline {
+  .subtitle,
+  .headline {
     font-size: 18px;
   }
-  .about, .support, .contact, .gallery {
+  .about,
+  .support,
+  .contact,
+  .gallery {
     padding: 2.5rem 1.75rem;
   }
 }
 
 @media (min-width: 768px) {
   .navbar-nav {
-   width: 100%;
-   display: flex;
-   justify-content: space-around;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
   .title {
     font-size: 48px;
@@ -319,7 +335,10 @@ footer hr {
     width: 90%;
     max-width: 768px;
   }
-  .about, .support, .contact, .gallery {
+  .about,
+  .support,
+  .contact,
+  .gallery {
     padding: 4.5rem;
   }
   .overview {
@@ -340,9 +359,9 @@ footer hr {
     grid-template-rows: 0.35fr 1fr 0.5fr 0.5fr 0.25fr;
   }
   .navbar-nav {
-   width: 100%;
-   display: flex;
-   justify-content: space-around;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
   .logo {
     --logo-size: 230px;
@@ -374,7 +393,9 @@ footer hr {
     margin: 0 auto;
     max-width: 1140px;
   }
-  .about, .support, .contact {
+  .about,
+  .support,
+  .contact {
     padding: 7rem;
   }
   .mission {
@@ -413,4 +434,10 @@ footer hr {
   .logo {
     grid-row: span 2;
   }
+}
+
+#host-a-drive {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  color: rgb(43, 43, 43);
+  padding: 1.5rem;
 }
