@@ -436,8 +436,9 @@ footer hr {
   }
 }
 
-#host-a-drive {
+main.host-a-drive {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   color: rgb(43, 43, 43);
-  padding: 1.5rem;
+  padding: 2.5rem 1.5rem;
+  min-height: 100%;
 }
