@@ -221,7 +221,7 @@ h3 {
 }
 
 .campaign {
-  background-color: #979797;
+  background-color: #b9b9b9;
   color: black
 }
 
@@ -506,7 +506,7 @@ footer hr {
     margin: 5px 0;
   }
   .grid-item {
-   margin: 10px 0;
+   margin: 20px 10PX;
   }
   .tool .toolttext {
   visibility: hidden;
