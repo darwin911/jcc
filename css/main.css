@@ -257,7 +257,7 @@ h3 {
 
 .grid-item:hover {
   cursor: pointer;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
 .grid-item.grayout:hover {
@@ -271,6 +271,7 @@ h3 {
   height: 100%;
   width: 100%;
   color: transparent;
+  display: none;
 }
 
 .tool .toolttext {
@@ -392,6 +393,32 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.pop-up-buttons button{
+  background: var(--presidente-green);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pop-up-buttons button:hover{
+  background-color: #26bd4b;
+}
+
+.pop-up-buttons #cancelButton{
+  background-color: #fff;
+  color: #26bd4b;
+  border: 2px #26bd4b solid;
+}
+
+.pop-up-buttons #cancelButton:hover{
+  background: var(--presidente-green);
+  border: 2px #fff solid;
+  color: white;
 }
 
 /*  */
@@ -539,6 +566,9 @@ footer hr {
   .grid-item {
    margin: 20px 10PX;
   }
+  .tool {
+    display: block;
+  }
   .tool .toolttext {
   visibility: hidden;
   width: 120px;
@@ -554,7 +584,6 @@ footer hr {
   z-index: 1;
   left: 50%;
   margin-left: -60px;
-
 }
 }
 

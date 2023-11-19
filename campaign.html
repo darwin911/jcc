@@ -64,7 +64,7 @@
 <!-- GRID CAMPAIGN -->
 
 <section id="campaign" class="campaign text-justify">
-    <h1 class="py-3">CAMPAIGN</h1>
+    <h1>GRID CAMPAIGN</h1>
     <hr />
     <article>
       <h3 id="contribute">What this about</h3>
@@ -212,13 +212,13 @@
         </div>
       </div>
       <div class="grid">
-        <div class="grid-item golf grayout" data-price="50">
+        <div class="grid-item golf grayout" data-price="50" data-name="CHRIS TRAVERS">
           <div class="item-price">$50</div>
           <div class="tool">
             <div class="toolttext">CHRIS TRAVERS</div>
         </div>
         </div>
-        <div class="grid-item golf grayout" data-price="50">
+        <div class="grid-item golf grayout" data-price="50" data-name="ROMANTIEZER RODRIGUEZ">
           <div class="item-price">$50</div>
           <div class="tool">
             <div class="toolttext">ROMANTIEZER RODRIGUEZ</div>
@@ -443,7 +443,11 @@
                 return;
             }
 
-            popupMessage.textContent = `Has hecho clic en un balón de $${price}, ¿deseas comprarlo?`;
+            popupMessage.innerHTML = 
+            `<br>Has hecho clic en un balón de $${price}, ¿deseas comprarlo? <br><br>  <b>TEN EN CUENTA !</b> <br>
+            <br> 1.Debes escribir en el precio de la pelota que seleccionaste donde dice '$0'
+            <br> 2. Click en 'Give' y llena con tus datos para realizar la donación`;
+
             okButton.style.display = 'block';
             openPopup();
         });
