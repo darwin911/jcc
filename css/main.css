@@ -159,7 +159,8 @@ h3 {
 
 .about,
 .support,
-.contact {
+.contact,
+.campaign {
   padding: 1.5rem 0.75rem;
 }
 
@@ -218,6 +219,209 @@ h3 {
   height: 100%;
   margin: 1.5rem auto 0;
 }
+
+.campaign {
+  background-color: #DAE4E9;
+  color: black
+}
+
+.grid-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.grid-item {
+  height: 100px;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 15px 5px;
+  position: relative;
+  margin-bottom: 1px;
+  transition: all .2s ease-in;
+}
+
+.grid-item:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.grid-item.grayout:hover {
+  cursor: not-allowed;
+  transform: scale(1);
+}
+
+.tool {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  color: transparent;
+  display: none;
+}
+
+.tool .toolttext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -60px;
+  top: -55px;
+}
+
+.tool:hover .toolttext {
+  visibility: visible;
+}
+
+.tool .toolttext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.item-name.active{
+  display: none;
+}
+
+.item-price{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  text-align: center;
+}
+
+.golf {
+  background-image: url('/img/balls/golf.png');
+}
+
+.golf.grayout {
+  background-image: url('/img/balls/golfGray.png');
+}
+
+.tennis {
+  background-image: url('/img/balls/tennis.png');
+}
+
+.tennis.grayout {
+  background-image: url('/img/balls/tennisGray.png');
+}
+
+.baseball {
+  background-image: url('/img/balls/baseball.png');
+}
+
+.baseball.grayout {
+  background-image: url('/img/balls/baseballGray.png');
+}
+
+.football {
+  background-image: url('/img/balls/football.png');
+}
+
+.football.grayout {
+  background-image: url('/img/balls/footballGray.png');
+}
+
+.americanball {
+  background-image: url('/img/balls/americanball.png');
+}
+
+.americanball.grayout {
+  background-image: url('/img/balls/americanballGray.png');
+}
+
+.basketball {
+  background-image: url('/img/balls/basketball.png');
+}
+
+.basketball.grayout {
+  background-image: url('/img/balls/basketballGray.png');
+}
+
+/* POP UP */
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pop-up-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pop-up-buttons button{
+  background: var(--presidente-green);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pop-up-buttons button:hover{
+  background-color: #26bd4b;
+}
+
+.pop-up-buttons #cancelButton{
+  background-color: #fff;
+  color: #26bd4b;
+  border: 2px #26bd4b solid;
+}
+
+.pop-up-buttons #cancelButton:hover{
+  background: var(--presidente-green);
+  border: 2px #fff solid;
+  color: white;
+}
+
+/*  */
 
 .gallery {
   background: hsl(261, 93%, 57%);
@@ -306,7 +510,8 @@ footer hr {
   .about,
   .support,
   .contact,
-  .gallery {
+  .gallery,
+  .campaign {
     padding: 2.5rem 1.75rem;
   }
 }
@@ -338,7 +543,8 @@ footer hr {
   .about,
   .support,
   .contact,
-  .gallery {
+  .gallery,
+  .campaign {
     padding: 4.5rem;
   }
   .overview {
@@ -352,6 +558,36 @@ footer hr {
   .card p {
     display: block;
   }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10%, 1fr));
+    margin: 5px 0;
+  }
+  .grid-item {
+   margin: 20px 10PX;
+  }
+  .item-price{
+    top: -30px;
+  }
+  .tool {
+    display: block;
+  }
+  .tool .toolttext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -60px;
+}
 }
 
 @media (min-width: 1280px) {
@@ -395,7 +631,8 @@ footer hr {
   }
   .about,
   .support,
-  .contact {
+  .contact,
+  .campaign {
     padding: 7rem;
   }
   .mission {

@@ -29,5 +29,34 @@ const hideCardText = () => {
 hideCardText();
 
 for (let i = 0; i < cards.length; i++) {
-  cards[i].addEventListener('click', toggle);
+  cards[i].naddEventListener('click', toggle);
 };
+
+
+
+
+// GRID FUNCTIONS
+
+function imagenClickeada(id) {
+  alert("Clickeaste la imagen con ID: " + id);
+  // Aquí puedes agregar la lógica que desees cuando se haga clic en la imagen con el ID específico
+}
+
+// Crear el grid con imágenes
+// const gridContainer = document.get('grid');
+
+// for (let i = 0; i < 10; i++) {
+//   for (let j = 0; j < 10; j++) {
+//     const cell = document.createElement('div');
+//     const image = document.createElement('img');
+//     const cellId = i * 10 + (j + 1); 
+//     image.src = 'https://via.placeholder.com/50x50'; 
+//     image.alt = 'Imagen';
+//     cell.appendChild(image);
+//     cell.classList.add('grid-item');
+//     cell.onclick = function() {
+//       imagenClickeada(cellId);
+//     };
+//     gridContainer.appendChild(cell);
+//   }
+// }
