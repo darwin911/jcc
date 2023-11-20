@@ -225,6 +225,10 @@ h3 {
   color: black
 }
 
+.grid-title{
+  font-size: 1.1em;
+}
+
 .grid-container{
   display: flex;
   flex-direction: column;
@@ -587,6 +591,9 @@ footer hr {
   z-index: 1;
   left: 50%;
   margin-left: -60px;
+}
+.grid-title{
+  font-size: 2em;
 }
 }
 
