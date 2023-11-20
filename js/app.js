@@ -29,7 +29,7 @@ const hideCardText = () => {
 hideCardText();
 
 for (let i = 0; i < cards.length; i++) {
-  cards[i].addEventListener('click', toggle);
+  cards[i].naddEventListener('click', toggle);
 };
 
 
