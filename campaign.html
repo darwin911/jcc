@@ -115,21 +115,48 @@
               amount, please write us at juegacomocampeon@gmail.com
             </p>
 
-            <div style="width: 100%; display: flex; position: relative; margin: 50px 0;">
+            <div
+              style="
+                width: 100%;
+                display: flex;
+                position: relative;
+                margin: 50px 0;
+              "
+            >
               <img
                 src="img/basketball court.jpeg"
-                style="width: 40%;border: 1px black solid; transform: rotate(-10deg); position: absolute; left: -5px; top: 30px;"
+                style="
+                  width: 40%;
+                  border: 1px black solid;
+                  transform: rotate(-10deg);
+                  position: absolute;
+                  left: -5px;
+                  top: 30px;
+                "
                 alt="Bilingual Sports Academy"
               />
 
               <img
                 src="img/basketball child.jpeg"
-                style="width: 20%; border: 1px black solid; margin: 0 auto; position: relative; z-index: 1;"
+                style="
+                  width: 20%;
+                  border: 1px black solid;
+                  margin: 0 auto;
+                  position: relative;
+                  z-index: 1;
+                "
                 alt="Bilingual Sports Academy"
               />
               <img
                 src="img/picture gallery 10.png"
-                style="width: 40%; border: 1px black solid; transform: rotate(-25deg); position: absolute; right: -5px; top: 30px;"
+                style="
+                  width: 40%;
+                  border: 1px black solid;
+                  transform: rotate(-25deg);
+                  position: absolute;
+                  right: -5px;
+                  top: 30px;
+                "
                 alt="Bilingual Sports Academy"
               />
             </div>
@@ -521,8 +548,17 @@
           <div class="popup-content">
             <p id="popup-message"></p>
             <div class="pop-up-buttons">
-              <button id="cancelButton" onclick="closePopup()">CLOSE</button>
-              <button id="okButton" onclick="redirectToLink()">YES</button>
+              <button id="cancelButton" onclick="closePopup()" class="button">
+                CLOSE
+              </button>
+              <a
+                id="okButton"
+                href="https://secure.qgiv.com/for/gridcampaign"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button"
+                >YES</a
+              >
             </div>
           </div>
         </div>
@@ -571,9 +607,9 @@
         popup.style.display = "none";
       }
 
-      function redirectToLink() {
-        window.location.href = "https://secure.qgiv.com/for/gridcampaign";
-      }
+      // function redirectToLink() {
+      //   window.location.href = "https://secure.qgiv.com/for/gridcampaign";
+      // }
     </script>
 
     <script

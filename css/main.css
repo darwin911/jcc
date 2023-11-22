@@ -221,15 +221,15 @@ h3 {
 }
 
 .campaign {
-  background-color: #DAE4E9;
-  color: black
+  background-color: #dae4e9;
+  color: black;
 }
 
-.grid-title{
+.grid-title {
   font-size: 1.1em;
 }
 
-.grid-container{
+.grid-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -256,7 +256,7 @@ h3 {
   margin: 15px 5px;
   position: relative;
   margin-bottom: 1px;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .grid-item:hover {
@@ -309,11 +309,11 @@ h3 {
   border-color: black transparent transparent transparent;
 }
 
-.item-name.active{
+.item-name.active {
   display: none;
 }
 
-.item-price{
+.item-price {
   font-size: 1.3em;
   font-weight: bold;
   color: black;
@@ -324,51 +324,51 @@ h3 {
 }
 
 .golf {
-  background-image: url('/img/balls/golf.png');
+  background-image: url("/img/balls/golf.png");
 }
 
 .golf.grayout {
-  background-image: url('/img/balls/golfGray.png');
+  background-image: url("/img/balls/golfGray.png");
 }
 
 .tennis {
-  background-image: url('/img/balls/tennis.png');
+  background-image: url("/img/balls/tennis.png");
 }
 
 .tennis.grayout {
-  background-image: url('/img/balls/tennisGray.png');
+  background-image: url("/img/balls/tennisGray.png");
 }
 
 .baseball {
-  background-image: url('/img/balls/baseball.png');
+  background-image: url("/img/balls/baseball.png");
 }
 
 .baseball.grayout {
-  background-image: url('/img/balls/baseballGray.png');
+  background-image: url("/img/balls/baseballGray.png");
 }
 
 .football {
-  background-image: url('/img/balls/football.png');
+  background-image: url("/img/balls/football.png");
 }
 
 .football.grayout {
-  background-image: url('/img/balls/footballGray.png');
+  background-image: url("/img/balls/footballGray.png");
 }
 
 .americanball {
-  background-image: url('/img/balls/americanball.png');
+  background-image: url("/img/balls/americanball.png");
 }
 
 .americanball.grayout {
-  background-image: url('/img/balls/americanballGray.png');
+  background-image: url("/img/balls/americanballGray.png");
 }
 
 .basketball {
-  background-image: url('/img/balls/basketball.png');
+  background-image: url("/img/balls/basketball.png");
 }
 
 .basketball.grayout {
-  background-image: url('/img/balls/basketballGray.png');
+  background-image: url("/img/balls/basketballGray.png");
 }
 
 /* POP UP */
@@ -393,14 +393,14 @@ h3 {
   text-align: center;
 }
 
-.pop-up-buttons{
+.pop-up-buttons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.pop-up-buttons button{
+.pop-up-buttons .button {
   background: var(--presidente-green);
   border-radius: 5px;
   border: none;
@@ -408,25 +408,25 @@ h3 {
   padding: 8px;
   font-weight: bold;
   cursor: pointer;
+  min-width: 100px;
+  border: 2px transparent solid;
+  transition: all 0.2s ease-out;
 }
 
-.pop-up-buttons button:hover{
+.pop-up-buttons .button:hover {
   background-color: #26bd4b;
 }
 
-.pop-up-buttons #cancelButton{
+.pop-up-buttons #cancelButton {
   background-color: #fff;
   color: #26bd4b;
-  border: 2px #26bd4b solid;
+  border-color: #26bd4b;
 }
 
-.pop-up-buttons #cancelButton:hover{
+.pop-up-buttons #cancelButton:hover {
   background: var(--presidente-green);
-  border: 2px #fff solid;
   color: white;
 }
-
-/*  */
 
 .gallery {
   background: hsl(261, 93%, 57%);
@@ -569,33 +569,33 @@ footer hr {
     margin: 5px 0;
   }
   .grid-item {
-   margin: 20px 10px;
+    margin: 20px 10px;
   }
-  .item-price{
+  .item-price {
     top: -30px;
   }
   .tool {
     display: block;
   }
   .tool .toolttext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  margin-left: -60px;
-}
-.grid-title{
-  font-size: 2em;
-}
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -60px;
+  }
+  .grid-title {
+    font-size: 2em;
+  }
 }
 
 @media (min-width: 1280px) {
