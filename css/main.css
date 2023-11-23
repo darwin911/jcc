@@ -519,6 +519,9 @@ footer hr {
   .campaign {
     padding: 2.5rem 1.75rem;
   }
+  .item-price {
+    top: -25px;
+  }
 }
 
 @media (min-width: 768px) {
