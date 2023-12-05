@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "lint": "prettier --check .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
