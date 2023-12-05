@@ -2,7 +2,7 @@
   "name": "jcc",
   "version": "1.0.0",
   "description": "Juega Como Campeon, a non-profit, bilingual sports academy, supports disadvantaged Dominican Republic kids via programs in Sports, English, Math & Character Building.",
-  "main": "index.html",
+  "main": "index.js",
   "repository": "https://github.com/darwin911/jcc",
   "author": "Darwin Smith <darwinpsmith@gmail.com>",
   "license": "MIT",
