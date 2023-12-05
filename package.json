@@ -13,11 +13,6 @@
     "lint:commits": "commitlint --from=HEAD~1",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint:commits && yarn format && git add -A ."
-    }
-  },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
