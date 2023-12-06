@@ -1,0 +1,22 @@
+{
+  "name": "jcc",
+  "version": "1.0.0",
+  "description": "Juega Como Campeon, a non-profit, bilingual sports academy, supports disadvantaged Dominican Republic kids via programs in Sports, English, Math & Character Building.",
+  "main": "index.js",
+  "repository": "https://github.com/darwin911/jcc",
+  "author": "Darwin Smith <darwinpsmith@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "lint:commits": "commitlint --from=HEAD~1",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.0"
+  }
+}
