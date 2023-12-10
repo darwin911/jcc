@@ -124,7 +124,7 @@ const campaignData = [
     { ballType: "golf", price: 100, owner: "SARAH DAU" },
     { ballType: "golf", price: 100, owner: "JANE ELLIS" },
     { ballType: "golf", price: 100, owner: "TOMMY BAINBRIDGE" },
-    { ballType: "golf", price: 100 },
+    { ballType: "golf", price: 100, owner: "DAVE BARNARD" },
     { ballType: "golf", price: 100 },
     { ballType: "golf", price: 100 },
   ],
