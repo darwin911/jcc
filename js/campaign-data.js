@@ -47,7 +47,7 @@ const campaignData = [
   [
     { ballType: "basketball", price: 40, owner: "KITTY DUFFY" },
     { ballType: "basketball", price: 40, owner: "BARBARA TRAVERS" },
-    { ballType: "basketball", price: 40 },
+    { ballType: "basketball", price: 40, owner: "DONALD ROYAL" },
     { ballType: "basketball", price: 40 },
     { ballType: "basketball", price: 40 },
     { ballType: "basketball", price: 40 },
@@ -70,8 +70,8 @@ const campaignData = [
   ],
   [
     { ballType: "americanball", price: 60, owner: "BARBARA TRAVERS" },
-    { ballType: "americanball", price: 60 },
-    { ballType: "americanball", price: 60 },
+    { ballType: "americanball", price: 60, owner: "RICH BRANNING" },
+    { ballType: "americanball", price: 60, owner: "DAVID RIVERS" },
     { ballType: "americanball", price: 60 },
     { ballType: "americanball", price: 60 },
     { ballType: "americanball", price: 60 },
