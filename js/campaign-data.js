@@ -35,7 +35,7 @@ const campaignData = [
   [
     { ballType: "football", price: 30, owner: "BARBARA TRAVERS" },
     { ballType: "football", price: 30, owner: "BARBARA TRAVERS" },
-    { ballType: "football", price: 30 },
+    { ballType: "football", price: 30, owner: "Joe “Hamburger” Disser" },
     { ballType: "football", price: 30 },
     { ballType: "football", price: 30 },
     { ballType: "football", price: 30 },
@@ -125,7 +125,7 @@ const campaignData = [
     { ballType: "golf", price: 100, owner: "JANE ELLIS" },
     { ballType: "golf", price: 100, owner: "TOMMY BAINBRIDGE" },
     { ballType: "golf", price: 100, owner: "DAVE BARNARD" },
-    { ballType: "golf", price: 100 },
+    { ballType: "golf", price: 100, owner: "Leon Ashner" },
     { ballType: "golf", price: 100 },
   ],
 ];
