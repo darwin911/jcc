@@ -2,3 +2,7 @@ node_modules
 .netlify
 .DS_Store
 .vscode
+
+# next.js
+/.next/
+/out/
