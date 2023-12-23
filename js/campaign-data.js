@@ -126,7 +126,7 @@ const campaignData = [
     { ballType: "golf", price: 100, owner: "TOMMY BAINBRIDGE" },
     { ballType: "golf", price: 100, owner: "DAVE BARNARD" },
     { ballType: "golf", price: 100, owner: "Leon Ashner" },
-    { ballType: "golf", price: 100 },
+    { ballType: "golf", price: 100, owner: "Evelina and Joel Teglia" },
   ],
 ];
 window.campaignData = campaignData;
