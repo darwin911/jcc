@@ -9,8 +9,8 @@
  */
 const campaignData = [
   [
-    { ballType: "basketballMulti", price: 10, owner: "Father Ted Hesburgh" },
-    { ballType: "basketballMulti", price: 10, owner: "Rodney Dangerfield" },
+    { ballType: "basketballMulti", price: 10 },
+    { ballType: "basketballMulti", price: 10 },
     { ballType: "basketballMulti", price: 10 },
     { ballType: "basketballMulti", price: 10 },
     { ballType: "basketballMulti", price: 10 },
@@ -21,7 +21,7 @@ const campaignData = [
     { ballType: "basketballMulti", price: 10 },
   ],
   [
-    { ballType: "basketball", price: 20, owner: "Dorothy Hamil" },
+    { ballType: "basketball", price: 20 },
     { ballType: "basketball", price: 20 },
     { ballType: "basketball", price: 20 },
     { ballType: "basketball", price: 20 },
