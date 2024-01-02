@@ -29,7 +29,7 @@ const campaignData = [
     { ballType: "basketball", price: 20, owner: "Liz Pampel Willock" },
     { ballType: "basketball", price: 20, owner: "Liz Pampel Willock" },
     { ballType: "basketball", price: 20, owner: "Liz Pampel Willock" },
-    { ballType: "basketball", price: 20 },
+    { ballType: "basketball", price: 20, owner: "Kathie Henn" },
     { ballType: "basketball", price: 20 },
   ],
   [
