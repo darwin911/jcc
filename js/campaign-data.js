@@ -12,7 +12,7 @@ const campaignData = [
     { ballType: "americanball", price: 10, owner: "JOE SEIGERT" },
     { ballType: "americanball", price: 10, owner: "BARBARA TRAVERS" },
     { ballType: "americanball", price: 10, owner: "MARY PAT SADDLER" },
-    { ballType: "americanball", price: 10 },
+    { ballType: "americanball", price: 10, owner: "MIKE GUENIN" },
     { ballType: "americanball", price: 10 },
     { ballType: "americanball", price: 10 },
     { ballType: "americanball", price: 10 },
@@ -106,7 +106,7 @@ const campaignData = [
   ],
   [
     { ballType: "basketball", price: 90, owner: "BARBARA TRAVERS" },
-    { ballType: "basketball", price: 90 },
+    { ballType: "basketball", price: 90, owner: "MIKE GUENIN" },
     { ballType: "basketball", price: 90 },
     { ballType: "basketball", price: 90 },
     { ballType: "basketball", price: 90 },
