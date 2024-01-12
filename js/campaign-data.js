@@ -63,7 +63,7 @@ const campaignData = [
     { ballType: "golf", price: 50, owner: "MIKE BRANT" },
     { ballType: "golf", price: 50, owner: "RACHEL DOUGHERTY HENDRICKS" },
     { ballType: "golf", price: 50, owner: "JACK HAGEDORN" },
-    { ballType: "golf", price: 50 },
+    { ballType: "golf", price: 50, owner: "PATRICK WADE" },
     { ballType: "golf", price: 50 },
     { ballType: "golf", price: 50 },
     { ballType: "golf", price: 50 },
