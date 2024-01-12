@@ -48,7 +48,7 @@ const campaignData = [
     { ballType: "basketball", price: 40, owner: "KITTY DUFFY" },
     { ballType: "basketball", price: 40, owner: "BARBARA TRAVERS" },
     { ballType: "basketball", price: 40, owner: "DONALD ROYAL" },
-    { ballType: "basketball", price: 40 },
+    { ballType: "basketball", price: 40, owner: "PETER STEIGERWALD" },
     { ballType: "basketball", price: 40 },
     { ballType: "basketball", price: 40 },
     { ballType: "basketball", price: 40 },
