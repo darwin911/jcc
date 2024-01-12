@@ -13,7 +13,7 @@ const campaignData = [
     { ballType: "americanball", price: 10, owner: "BARBARA TRAVERS" },
     { ballType: "americanball", price: 10, owner: "MARY PAT SADDLER" },
     { ballType: "americanball", price: 10, owner: "MIKE GUENIN" },
-    { ballType: "americanball", price: 10 },
+    { ballType: "americanball", price: 10, owner: "JAKE HIANIK" },
     { ballType: "americanball", price: 10 },
     { ballType: "americanball", price: 10 },
     { ballType: "americanball", price: 10 },
