@@ -107,7 +107,7 @@ const campaignData = [
   [
     { ballType: "basketball", price: 90, owner: "BARBARA TRAVERS" },
     { ballType: "basketball", price: 90, owner: "MIKE GUENIN" },
-    { ballType: "basketball", price: 90 },
+    { ballType: "basketball", price: 90, owner: "NICOLE POLANCO" },
     { ballType: "basketball", price: 90 },
     { ballType: "basketball", price: 90 },
     { ballType: "basketball", price: 90 },
