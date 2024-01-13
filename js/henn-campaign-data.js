@@ -51,7 +51,7 @@ const campaignData = [
     { ballType: "basketball", price: 20, owner: "Jim Tunney" },
     { ballType: "basketball", price: 20, owner: "Henn Family Fan" },
     { ballType: "basketball", price: 20, owner: "Henn Family Fan" },
-    { ballType: "basketball", price: 20 },
+    { ballType: "basketball", price: 20, owner: "Bob and Cathy Cerrone" },
     { ballType: "basketball", price: 20 },
     { ballType: "basketball", price: 20 },
     { ballType: "basketball", price: 20 },
